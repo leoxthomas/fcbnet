@@ -15,9 +15,9 @@ Computer Vision Center (CVC), Universitat Autònoma de Barcelona (UAB)
 
 ## Announcements
 
-- FCBNet has been accepted at CVPR Workshops 2026
-- The paper introduces an efficient frozen-backbone strategy for camouflaged weed segmentation
-- Official implementation and model code are available in this repository
+- Official implementation and model code are available
+- FCBNet paper is now available [here](https://openaccess.thecvf.com/content/CVPR2026W/SVC/html/Ramos_A_Parameter-efficient_Convolutional_Approach_for_Camouflaged_Weed_Detection_in_Multispectral_CVPRW_2026_paper.html)
+- FCBNet has been accepted at the 2nd Workshop on Subtle Visual Computing (SVC), CVPR 2026
 
 ## About the project
 
@@ -37,7 +37,7 @@ pip install .
 
 ## Quick usage
 
-FCBNet can be instantiated directly from a single file:
+FCBNet can be instantiated directly from ```fcbnet.py```:
 
 ```python
 from fcbnet import FCBNet
@@ -49,7 +49,8 @@ model = FCBNet(
 ```
 
 The default arguments are already configured with the best-performing setup from our experiments.  
-You can still tune parameters such as `variant`, `pretrained`, `freeze_backbone`, `fpn_dim`, and FCB-related settings if needed.
+
+It can still be tuned through parameters such as `variant`, `pretrained`, `freeze_backbone`, `fpn_dim`, and the FCB-related settings if needed.
 
 ## Input and output
 
