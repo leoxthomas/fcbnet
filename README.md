@@ -10,7 +10,7 @@ Computer Vision Center (CVC), Universitat Autònoma de Barcelona (UAB)
 </div>
 
 <div align="center">
-<img src="./assets/fcbnet_teaser.png" width="100%"/>
+<img src="./assets/fcbnet.png" width="100%"/>
 </div>
 
 ## Announcements
