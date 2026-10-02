@@ -37,7 +37,7 @@ pip install .
 
 ## Quick usage
 
-FCBNet can be instantiated directly from ```fcbnet.py```:
+FCBNet can be instantiated directly from ```fcbnet.py``` and used within any training workflow as follows:
 
 ```python
 from fcbnet import FCBNet
@@ -48,9 +48,7 @@ model = FCBNet(
 )
 ```
 
-The default arguments are already configured with the best-performing setup from our experiments.  
-
-It can still be tuned through parameters such as `variant`, `pretrained`, `freeze_backbone`, `fpn_dim`, and the FCB-related settings if needed.
+The default arguments are already configured with the best-performing setup from our experiments. It can still be tuned through parameters such as `variant`, `pretrained`, `freeze_backbone`, `fpn_dim`, and the FCB-related settings if needed.
 
 ## Input and output
 
