@@ -67,6 +67,12 @@ x = torch.randn(2, 3, 256, 256)
 y = model(x)
 print(y.shape)  # (2, 4, 256, 256)
 ```
+## Datasets
+
+To evaluate FCBNet, we use two camouflaged weed detection/segmentation datasets based on aerial imagery:
+
+- [**WeedBananaCOD**](https://cod-espol.github.io/COD-Weeds/)
+- [**WeedMap**](https://github.com/viariasv/weedMap)
 
 ## Main results
 
