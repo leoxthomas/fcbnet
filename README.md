@@ -5,7 +5,7 @@
 [Leo Thomas Ramos](https://www.linkedin.com/in/leo-thomas-ramos/), [Angel D. Sappa](https://es.linkedin.com/in/angel-sappa-61532b17)<br/>
 Correspondence: ltramos@cvc.uab.cat
 
-Computer Vision Center (CVC), Universitat Autònoma de Barcelona (UAB) 
+Computer Vision Center (CVC), Universitat Autònoma de Barcelona (UAB), Spain
 
 </div>
 
