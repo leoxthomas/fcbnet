@@ -219,16 +219,8 @@ class ConvNeXtEncoderWithFCB(nn.Module):
             if old_conv.weight.shape[1] == 3:
                 w_old = old_conv.weight
                 w_new = new_conv.weight
-
-                if in_channels <= 3:
-                    w_new.copy_(w_old[:, :in_channels])
-                else:
-                    w_new[:, :3].copy_(w_old)
-                    mean_rgb = w_old.mean(dim=1, keepdim=True)
-                    w_new[:, 3:].copy_(mean_rgb.repeat(1, in_channels - 3, 1, 1))
-
-
-                w_new.mul_(3.0 / float(in_channels))
+                mean_rgb = w_old.mean(dim=1, keepdim=True)
+                w_new.copy_(mean_rgb.repeat(1, in_channels, 1, 1))
 
                 if new_conv.bias is not None and old_conv.bias is not None:
                     new_conv.bias.copy_(old_conv.bias)
