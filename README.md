@@ -119,7 +119,7 @@ To evaluate FCBNet, we use two camouflaged weed detection/segmentation datasets 
 
 ## Citation
 
-If you find this work useful, please star the repository and cite:
+If you find this work useful, please star ⭐️⭐️⭐️ our repository and cite our paper:
 
 ```bibtex
 @InProceedings{Ramos_2026_CVPR,
